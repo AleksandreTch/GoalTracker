@@ -1,5 +1,4 @@
 import React from 'react';
-
 import styles from './LifeGoalItem.module.css';
 
 const LifeGoalItem = props => {

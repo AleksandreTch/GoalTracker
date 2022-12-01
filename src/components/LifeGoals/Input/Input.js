@@ -24,7 +24,7 @@ const Input = (props) => {
 
   return (
     <form onSubmit={formSubmitHandler}>
-      <div className={`${styles.formControl} ${!isValid ? styles.invalid : ""}`}>
+      <div className={`${styles.formControl} ${!isValid && styles.invalid}`}>
         <label style={{ color: !isValid ? "red" : "black" }}>
           Input Your Goal
         </label>
@@ -32,7 +32,7 @@ const Input = (props) => {
       </div>
       <Button type="submit">Add Goal</Button>
     </form>
-  );
+  ); 
 };
 
 export default Input;
