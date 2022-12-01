@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './LifeGoalItem.css';
+import styles from './LifeGoalItem.module.css';
 
 const LifeGoalItem = props => {
   // const [deleteText, setDeleteText] = useState('');
@@ -11,7 +11,7 @@ const LifeGoalItem = props => {
   };
 
   return (
-    <li className="goal-item" onClick={deleteHandler}>
+    <li className={styles.goalItem} onClick={deleteHandler}>
       {props.children}
     </li>
   );

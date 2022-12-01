@@ -1,9 +1,9 @@
-.form-control {
+.formControl {
   margin: 0.5rem 0;
   font-size: 1.5rem;
 }
 
-.form-control label {
+.formControl label {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -13,7 +13,7 @@
   margin-bottom: 0.5rem;
 }
 
-.form-control input {
+.formControl input {
   display: block;
   height: 3rem;
   background: white;
@@ -24,17 +24,17 @@
   padding: 0 1rem;
 }
 
-.form-control input:focus {
+.formControl input:focus {
   outline: none;
   background: white;
   outline: none;
 }
 
-.form-control.invalid input{
+.formControl.invalid input{
   border: solid 2px red;
   background: transparent;
 }
 
-.form-control.invalid label {
+.formControl.invalid label {
 color: red;
 }
