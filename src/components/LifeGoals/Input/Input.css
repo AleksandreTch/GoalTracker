@@ -29,3 +29,12 @@
   background: white;
   outline: none;
 }
+
+.form-control.invalid input{
+  border: solid 2px red;
+  background: transparent;
+}
+
+.form-control.invalid label {
+color: red;
+}
